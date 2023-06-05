@@ -1,4 +1,4 @@
-package ejercicio1.model;
+package com.softtek.pruebasunitarias1.ejercicio1.model;
 
 public class Figura {
     protected int coordenadaX;

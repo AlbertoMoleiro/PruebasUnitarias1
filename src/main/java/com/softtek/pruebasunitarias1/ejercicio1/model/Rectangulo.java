@@ -1,4 +1,4 @@
-package ejercicio1.model;
+package com.softtek.pruebasunitarias1.ejercicio1.model;
 
 public class Rectangulo extends Figura{
 
@@ -13,6 +13,11 @@ public class Rectangulo extends Figura{
     @Override
     public int[] getPosition() {
         return super.getPosition();
+    }
+
+    //Método para calcular el area
+    public double getArea() {
+    	return ancho*alto;
     }
 
 }

@@ -1,13 +1,19 @@
 package com.softtek.pruebasunitarias1;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PruebasUnitarias1Application {
+public class PruebasUnitarias1Application implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PruebasUnitarias1Application.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+
 	}
 
 }
