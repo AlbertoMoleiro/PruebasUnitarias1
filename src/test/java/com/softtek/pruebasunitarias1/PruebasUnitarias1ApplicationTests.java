@@ -26,6 +26,7 @@ class PruebasUnitarias1ApplicationTests {
 		figura = new Figura(5, 10);
 		circulo = new Circulo(1, 2, 5.0);
 		rectangulo = new Rectangulo(3, 4, 5.0, 6.0);
+		calculadora = new Calculadora();
 	}
 
 	@Test
@@ -61,10 +62,6 @@ class PruebasUnitarias1ApplicationTests {
 	//Calculadora tests
 	private Calculadora calculadora;
 
-	@BeforeEach
-	public void initCalc() {
-		calculadora = new Calculadora();
-	}
 
 	@Test
 	public void testSuma() {
